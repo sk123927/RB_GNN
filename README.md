@@ -8,7 +8,7 @@ Submitted to *Social Network Analysis and Mining (SNAM)*, Springer Nature.
 ---
 
 ## Status
-The code will be released after the paper is accepted.  
+The code will be released soon.  
 This repository is a placeholder for now.
 
 ---
