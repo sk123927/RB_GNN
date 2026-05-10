@@ -1,0 +1,22 @@
+data:
+  data_root: data
+  dataset: trigger/er1500
+  seed: 123
+
+model:
+  model: rbgnn
+  hidden_dim: 128
+  num_layers: 6
+  dropout: 0.3
+  aggregation: attention
+  jumping: last
+  use_reverse: true
+
+training:
+  epochs: 200
+  batch_size: 4
+  lr: 0.001
+  focal_alpha: 0.9
+  focal_gamma: 4.0
+  device: auto
+

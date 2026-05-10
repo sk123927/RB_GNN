@@ -1,0 +1,8 @@
+numpy>=1.23
+networkx>=3.0
+scikit-learn>=1.2
+torch>=2.1
+torch-geometric>=2.4
+PyYAML>=6.0
+tqdm>=4.66
+

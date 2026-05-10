@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "RB-GNN: Rumor Blocking without Knowing the Diffusion Model"
+message: "If you use this repository, please cite the RB-GNN paper."
+type: software
+authors:
+  - family-names: Su
+    given-names: Ke
+  - family-names: Zhou
+    given-names: Yisheng
+  - family-names: Lee
+    given-names: Chia-Wei
+  - family-names: Wu
+    given-names: Weili
+repository-code: "https://github.com/sk123927/RB_GNN"
+license: MIT
+

@@ -1,0 +1,53 @@
+{
+  "trigger/er1500": {
+    "name": "ER1500",
+    "num_nodes": 1500,
+    "directed": true,
+    "graph": "trigger/er1500/diffusion_model.txt",
+    "train": "trigger/er1500/train.txt",
+    "validation": "trigger/er1500/validation.txt",
+    "test": "trigger/er1500/test.txt",
+    "description": "Erdos-Renyi synthetic graph with Triggering-model labels."
+  },
+  "trigger/sf1750": {
+    "name": "SF1750",
+    "num_nodes": 1750,
+    "directed": true,
+    "graph": "trigger/sf1750/diffusion_model.txt",
+    "train": "trigger/sf1750/train.txt",
+    "validation": "trigger/sf1750/validation.txt",
+    "test": "trigger/sf1750/test.txt",
+    "description": "Scale-free synthetic graph with Triggering-model labels."
+  },
+  "trigger/wiki7115": {
+    "name": "Wiki-Vote",
+    "num_nodes": 7115,
+    "directed": true,
+    "graph": "trigger/wiki7115/diffusion_model.txt",
+    "train": "trigger/wiki7115/train.txt",
+    "validation": "trigger/wiki7115/validation.txt",
+    "test": "trigger/wiki7115/test.txt",
+    "description": "Wiki-Vote directed network with Triggering-model labels."
+  },
+  "trigger/dblp12591": {
+    "name": "DBLP",
+    "num_nodes": 12591,
+    "directed": true,
+    "graph": "trigger/dblp12591/diffusion_model.txt",
+    "train": "trigger/dblp12591/train.txt",
+    "validation": "trigger/dblp12591/validation.txt",
+    "test": "trigger/dblp12591/test.txt",
+    "description": "DBLP directed graph with Triggering-model labels."
+  },
+  "demo/tiny": {
+    "name": "Tiny demo",
+    "num_nodes": 8,
+    "directed": true,
+    "graph": "demo/tiny/diffusion_model.txt",
+    "train": "demo/tiny/train.txt",
+    "validation": "demo/tiny/validation.txt",
+    "test": "demo/tiny/test.txt",
+    "description": "Small hand-written dataset for parser and training smoke tests."
+  }
+}
+
